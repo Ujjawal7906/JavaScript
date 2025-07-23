@@ -1,6 +1,7 @@
 # JavaScript
-This repository contains all the source code, examples, and notes from my JavaScript learning journey. <br>
-It's designed for beginners and covers everything from the basics to advanced concepts. <br> You’ll find:
+This repository contains all the source code and examples. <br>
+It's for beginners and covers from the basics to advanced concepts.<br>
+You’ll find:<br>
 
 ✅ Fundamentals of JavaScript (variables, data types, operators)<br>
 🔄 Control structures (if-else, loops, switch)<br>
