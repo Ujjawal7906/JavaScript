@@ -4,7 +4,6 @@
 // console.log(2 == 1);
 // console.log(2 != 1);//not equal to
 
-
 // console.log("2" > 1);
 // console.log("02" > 1);//string is convert into number then compare
 
