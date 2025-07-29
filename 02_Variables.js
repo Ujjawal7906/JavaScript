@@ -16,11 +16,11 @@ console.log(a)
 
 // var a = 45;
 // var a = "p"
-let b = "Harry";
-const author = "Harry"
-author = 5 // Throws an error because constant cannot be changed
-b = 4
-const harry = 0;
+let b = "ujjawal";
+const author = "ujjawal"
+// author = 5 // Throws an error because constant cannot be changed
+e = 4
+const ujjawal = 0;
 let c = null
 let d  = undefined  
 {
