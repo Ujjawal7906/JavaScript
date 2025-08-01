@@ -48,3 +48,12 @@ else if(num%2===0){
 else{
     console.log("Your number is not divisible by 2 and 3");
 }
+
+// Write a program to print the sum of first n natural number
+
+let sum = 0;
+let n = prompt("Enter the value of n");
+for(let i=0; i < n; i++){
+    sum += i + 1;
+}
+console.log("The sum of first " + n + " numbers is", sum );
