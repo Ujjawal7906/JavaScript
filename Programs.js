@@ -57,3 +57,43 @@ for(let i=0; i < n; i++){
     sum += i + 1;
 }
 console.log("The sum of first " + n + " numbers is", sum );
+
+// Wite a progran to print the marks of a student in an object using for loop
+
+let studentMarks = {
+    naman: 55,
+    rohan: 65,
+    sohan: 87,
+}
+for (let i = 0; i < Object.keys(studentMarks).length; i++) {
+  console.log("The marks of " + Object.keys(studentMarks)[i] + " are " + studentMarks[Object.keys(studentMarks)[i]])
+}
+
+// Wite a progran to print the marks of a student in an object using for in loop
+
+let Marks = {
+    naman: 55,
+    rohan: 65,
+    sohan: 87,
+}
+for (let i in Marks ) {
+  console.log("The marks of " + i + " are " + Marks[i]);
+}
+
+//Create a game of choose correct number
+
+let correctNumber = 5;
+let userNumber = prompt("Enter your number");
+
+while(correctNumber != userNumber){
+    userNumber = prompt("Try again");
+}
+console.log("You enter correct number");
+
+
+// Write a function to find mean of 5 numbers
+
+let mean = (a, b, c, d) => {
+    return (a + b + c + d)/4;
+}
+console.log("The mean of 1, 2, 3, 4 is ", mean(1, 2, 3, 4));
