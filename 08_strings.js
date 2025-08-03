@@ -1,13 +1,13 @@
 // Double Quote string
-let name = "Ujjawal Thakur";
-console.log(name);
-console.log(name.length);
+let Name = "Ujjawal Thakur";
+console.log(Name);
+console.log(Name.length);
 
 // Single Quote string
-let myName = 'Ujjawal Thakur';
-console.log(myName);
-console.log(myName.length);
-console.log(myName[4]);
+// let myName = 'Ujjawal Thakur';
+// console.log(myName);
+// console.log(myName.length);
+// console.log(myName[4]);
 
 
 // let myName = "Ujjawal Thakur';  // This is not acceptable
@@ -31,3 +31,21 @@ console.log(sentence);
 
 let mySelf = "I'm a good boy"; // its print as usual
 console.log(mySelf);
+
+let myName = "Ujjawal Thakur";
+ console.log(myName); // Ujjawal Thakur
+ console.log(myName.length); // 14
+ console.log(myName.toUpperCase()); // UJJAWAL THAKUR
+ console.log(myName.toLowerCase()); //ujjawal thakur
+ console.log(myName.slice(0,7)); // Ujjawal
+ console.log(myName.slice(8)); // Thakur
+ console.log(myName.replace("Thakur", "Kumar"));  // Ujjawal Kumar
+ 
+ let friend = "Rohan";
+ console.log(myName.concat(" is a friend of ", friend));
+
+ let friend1 = "    Ujjawal Thakur       ";
+ console.log(friend1);
+ console.log(friend1.trim()); // for remove unwanted spaces
+ 
+ 
