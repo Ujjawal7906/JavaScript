@@ -20,3 +20,14 @@ let boy2 = "Mohan";
 // we have to print Mohan is a friend of Rohan
 let sentence  = `${boy2} is a friend of ${boy1}`;
 console.log(sentence);
+
+
+// // Escape Sequence characters
+// let mySelf = 'I\'m a good boy'; // if i want to print ' between ' ' then we use \'
+// console.log(mySelf);
+
+// let mySelf = "I\"m a good boy"; // if i want to print " between " " then we use \"
+// console.log(mySelf);
+
+let mySelf = "I'm a good boy"; // its print as usual
+console.log(mySelf);
