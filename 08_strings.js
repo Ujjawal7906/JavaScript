@@ -7,7 +7,16 @@ console.log(name.length);
 let myName = 'Ujjawal Thakur';
 console.log(myName);
 console.log(myName.length);
+console.log(myName[4]);
+
 
 // let myName = "Ujjawal Thakur';  // This is not acceptable
 // console.log(myName);
 
+// Template Literals
+
+let boy1 = "Rohan";
+let boy2 = "Mohan";
+// we have to print Mohan is a friend of Rohan
+let sentence  = `${boy2} is a friend of ${boy1}`;
+console.log(sentence);
