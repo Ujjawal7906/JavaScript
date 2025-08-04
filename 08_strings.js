@@ -48,4 +48,8 @@ let myName = "Ujjawal Thakur";
  console.log(friend1);
  console.log(friend1.trim()); // for remove unwanted spaces
  
- 
+ //Include function of a string
+let sentence1 = "The quick brown fox jumps over the lazy dog.";
+let word = "fox";
+
+console.log(`The word "${word}" ${sentence1.includes(word) ? "is" : "is not"} in the sentence,`);

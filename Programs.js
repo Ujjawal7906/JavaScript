@@ -97,3 +97,14 @@ let mean = (a, b, c, d) => {
     return (a + b + c + d)/4;
 }
 console.log("The mean of 1, 2, 3, 4 is ", mean(1, 2, 3, 4));
+
+
+// Strings
+let str = "Ujjawal\"";
+console.log(str.length);
+
+//Include function of a string
+let sentence = "The quick brown fox jumps over the lazy dog.";
+let word = "Fox";
+
+console.log(`The word "${word}" "${sentence.includes(word)} ? "is" : "is not" in the sentence,`);
