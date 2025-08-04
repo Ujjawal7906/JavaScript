@@ -108,3 +108,10 @@ let sentence = "The quick brown fox jumps over the lazy dog.";
 let word = "Fox";
 
 console.log(`The word "${word}" "${sentence.includes(word)} ? "is" : "is not" in the sentence,`);
+
+// Exteact the amount out of this string "Please give Rs 1000"
+let str2 = "Please give Rs 1000"
+let amount = str2.slice("Please give Rs ".length);
+console.log(amount);
+
+

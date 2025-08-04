@@ -53,3 +53,29 @@ let sentence1 = "The quick brown fox jumps over the lazy dog.";
 let word = "fox";
 
 console.log(`The word "${word}" ${sentence1.includes(word) ? "is" : "is not"} in the sentence,`);
+
+// Startwith String function
+
+// startsWith(searchString) 
+// startsWith(searchString, position)
+
+let str = "I am a good boy.";
+console.log(str.startsWith("I am"));
+console.log(str.startsWith("good", 7));
+
+// Endswith String Function
+
+// endsWith(searchString)
+// endsWith(searchString, endPosition)
+
+let str1 = "I am a good boy.";
+console.log(str1.endsWith("boy."));
+console.log(str1.endsWith("boy", 15));
+console.log(str1.endsWith("boy"));
+
+//Slice in String
+let str2 = "Please give Rs 1000"
+let amount = str2.slice("Please give Rs ".length);
+// let amount = str2.slice(15);
+console.log(amount);
+
