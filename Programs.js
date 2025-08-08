@@ -114,4 +114,12 @@ let str2 = "Please give Rs 1000"
 let amount = str2.slice("Please give Rs ".length);
 console.log(amount);
 
-
+/* Wite a program using prompt function to take input of age as a value from the user and use alert 
+ to tell him if he can drive*/
+let age1 = prompt("You can drive")
+if(age1 >= 18){
+    alert("You can drive");
+}
+else{
+    alert("You cannot drive");
+}
